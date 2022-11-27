@@ -47,10 +47,11 @@ a{
 
 /* setup css */
 :root{
-    --brand_color_deep: rgba(2, 163, 2, 0.689); 
+    --brand_color_deep: rgba(2, 163, 2, 0.671); 
     --brnad_color_light: rgba(6, 150, 216, 0.212); 
     --black: rgba(0, 0, 0, 0.947); 
     --white: rgba(255, 255, 255, 0.947); 
+    --gray: rgba(128, 128, 128, 0.799); 
     --white_transperent: rgba(255, 255, 255, 0.393); 
     --pg_color: rgba(27, 27, 27, 0.669); 
     --h1_font_size: 42px;

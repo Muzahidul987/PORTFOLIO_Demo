@@ -5,4 +5,5 @@
 @import "./Includes/counter_part.css";
 @import "./Includes/what_i_do.css";
 @import "./Includes/testimonials.css";
-@import "./Includes/resume.css";
+@import "./Includes/pages/resume/resume.css";
+@import "./Includes/pages/resume/right.css";
