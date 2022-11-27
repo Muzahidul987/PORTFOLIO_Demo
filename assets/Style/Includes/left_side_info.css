@@ -17,6 +17,10 @@ header {
     margin-bottom: 20px;
     padding-top: 72px;
 }
+.left_side_info header .profile_part .profile_img{
+    display: inline-block;
+    position: relative;
+}
 
 .left_side_info header .profile_part ::after {
     content: '';
@@ -24,8 +28,8 @@ header {
     width: 110px;
     background-color: rgba(255, 255, 255, 0.208);
     position: absolute;
-    top: 122px;
-    left: 15%;
+    top: 1px;
+    left: 0px;
     border-radius: 50%;
 }
 
@@ -33,7 +37,7 @@ header {
     border: 2px solid var(--white);
     border-radius: 50%;
     width: 100px;
-    position: relative;
+    /* position: relative; */
 }
 
 .left_side_info header .name {
