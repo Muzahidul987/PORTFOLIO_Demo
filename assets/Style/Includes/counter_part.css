@@ -1,0 +1,47 @@
+#counter_part .counter_list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 10px;
+}
+#counter_part .counter_list .counter_items{
+    border: 1px solid none;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(100, 100, 100, 0.459);
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#counter_part .counter_list .counter_items .counter_icon{
+    position: relative;
+    
+}
+#counter_part .counter_list .counter_items .counter_icon i{
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%) ;
+    font-size: 70px;
+    color: var(--brnad_color_light);
+    opacity: .5;
+
+}
+#counter_part .counter_list .counter_items .counter_des{
+    text-align: right;
+}
+#counter_part .counter_list .counter_items .counter_des h3{
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(43, 42, 42, 0.845);
+}
+#counter_part .counter_list .counter_items .counter_des p{
+    font-size: 30px;
+    line-height: 30px;
+    color: rgb(168, 207, 220);
+    margin-top: 5px;
+}
+
+
+
+

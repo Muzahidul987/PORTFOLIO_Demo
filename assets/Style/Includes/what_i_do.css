@@ -1,0 +1,58 @@
+#what_i_do {
+    /* border: 1px solid red; */
+    padding: 100px 0px;
+}
+
+.common_heading h2 {
+    font-size: 25px;
+    line-height: 35px;
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.common_heading h2::before {
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 100%;
+    background: rgb(85,198,195);
+background: linear-gradient(90deg, rgba(85,198,195,0) 0%, rgba(58,135,138,0.6752450980392157) 81%, rgba(36,84,91,0.8153011204481793) 100%);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    top: 0;
+    right: 0;
+    z-index: 0;
+
+}
+
+#what_i_do .what_i_do_items {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding-top: 30px;
+}
+
+#what_i_do .what_i_do_items .what_i_do_contant .icon i {
+    font-size: 40px;
+    color: var(--brnad_color_light);
+}
+
+#what_i_do .what_i_do_items .what_i_do_contant .what_i_do_des {
+    padding-top: 25px;
+}
+
+#what_i_do .what_i_do_items .what_i_do_contant .what_i_do_des h3 {
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+#what_i_do .what_i_do_items .what_i_do_contant .what_i_do_des p {
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.655);
+}

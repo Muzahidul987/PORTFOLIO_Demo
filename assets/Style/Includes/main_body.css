@@ -1,0 +1,10 @@
+body{
+    display: grid;
+    grid-template-columns: 1.8fr 4.2fr;
+    max-width: 1400px;
+    margin: auto;
+    height: 100vh;
+    background-image: url(../../images/bacground.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
