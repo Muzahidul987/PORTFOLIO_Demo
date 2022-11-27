@@ -13,11 +13,12 @@
     color: var(--gray);
 }
 
-#right_part .resume .resume_des{
+#right_part .main_container .container .resume .resume_des{
     border: 2px solid blue;
     display: grid;
     grid-template-columns: 60% 40%;
     gap: 30px;
+    max-width: 100%;
 }
 #right_part .resume .resume_des .left{
     border: 1px dashed violet;
