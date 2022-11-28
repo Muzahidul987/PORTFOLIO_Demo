@@ -1,0 +1,40 @@
+.resume_bottom{
+    border: 1px solid red;
+    padding-top: 30px;
+}
+.resume_bottom .certificates {
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-top: 20px;
+}
+.resume_bottom .certificates .certificates_list{
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 10px;
+}
+
+.resume_bottom .certificates .cretificates_pic{
+    border: 1px solid brown;
+}
+.resume_bottom .certificates .certificates_des{
+    border: 1px solid brown;
+    padding: 15px;
+}
+.resume_bottom .certificates .certificates_des h3{
+    font-size: 18px;
+    line-height: 28px;
+    
+}
+.resume_bottom .certificates .certificates_des h5{
+    padding: 10px 0px;
+    color: var(--gray);
+    font-weight: 200;
+}
+.resume_bottom .certificates .certificates_des p{
+    color: var(--gray);
+    font-size: 12px;
+    font-weight: 200;
+}
