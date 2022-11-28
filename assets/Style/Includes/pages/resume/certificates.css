@@ -14,13 +14,14 @@
     display: grid;
     grid-template-columns: 30% 70%;
     gap: 10px;
+    overflow: hidden;
 }
 
 .resume_bottom .certificates .cretificates_pic{
-    border: 1px solid brown;
+    border: 1px dashed brown;
 }
 .resume_bottom .certificates .certificates_des{
-    border: 1px solid brown;
+    border: 1px dashed brown;
     padding: 15px;
 }
 .resume_bottom .certificates .certificates_des h3{
