@@ -1,27 +1,31 @@
 .resume_bottom{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-top: 30px;
 }
 .resume_bottom .certificates {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     padding-top: 20px;
 }
 .resume_bottom .certificates .certificates_list{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: grid;
     grid-template-columns: 30% 70%;
     gap: 10px;
     overflow: hidden;
 }
-
-.resume_bottom .certificates .cretificates_pic{
-    border: 1px dashed brown;
+.resume_bottom .certificates .certificates_list .cretificates_pic{
+    background-color: rgba(128, 128, 128, 0.18);
+    
 }
-.resume_bottom .certificates .certificates_des{
+/* .resume_bottom .certificates .certificates_list .cretificates_pic .img {} */
+/* .resume_bottom .certificates .cretificates_pic{
     border: 1px dashed brown;
+} */
+.resume_bottom .certificates .certificates_des{
+    /* border: 1px dashed brown; */
     padding: 15px;
 }
 .resume_bottom .certificates .certificates_des h3{
