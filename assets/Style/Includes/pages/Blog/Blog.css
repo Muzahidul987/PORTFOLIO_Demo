@@ -1,0 +1,29 @@
+.blog_list {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    position: relative;
+}
+
+.blog_list .blog_items {}
+
+.blog_list .blog_items .Upper_part {}
+
+.blog_list .blog_items .Upper_part .img {}
+
+.blog_list .blog_items .Upper_part .img img {
+    max-width: 100%;
+}
+
+.blog_list .blog_items .Upper_part i {}
+
+.blog_list .blog_items .Upper_part a {}
+
+.blog_list .blog_items .lower_part {}
+
+.blog_list .blog_items .lower_part p {}
+
+.blog_list .blog_items .lower_part a {}
+
+.blog_list .blog_items .lower_part a h2 {}

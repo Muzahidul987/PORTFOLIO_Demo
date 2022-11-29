@@ -14,3 +14,6 @@
 /* this is portfolio section  */
 @import "./Includes/pages/Portfolio/postfolio.css";
 @import "./Includes/pages/Portfolio/gallery.css";
+
+/* this is blog section  */
+@import "./Includes/pages/Blog/Blog.css";
