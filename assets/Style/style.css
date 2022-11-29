@@ -5,6 +5,11 @@
 @import "./Includes/counter_part.css";
 @import "./Includes/what_i_do.css";
 @import "./Includes/testimonials.css";
+
+/* this is resume section  */
 @import "./Includes/pages/resume/resume.css";
 @import "./Includes/pages/resume/right.css";
 @import "./Includes/pages/resume/certificates.css";
+
+/* this is portfolio section  */
+@import "./Includes/pages/Portfolio/postfolio.css";

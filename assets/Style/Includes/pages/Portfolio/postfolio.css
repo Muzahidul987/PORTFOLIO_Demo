@@ -1,0 +1,15 @@
+.portfolio_heading{
+    border: 1px solid red;
+}
+.portfolio_heading ul{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
+/* .portfolio_heading ul li{} */
+.portfolio_heading ul li a{
+    color: var(--gray);
+}
+.portfolio_heading ul li a.strong{
+    color: rgba(0, 0, 0, 0.678);
+}

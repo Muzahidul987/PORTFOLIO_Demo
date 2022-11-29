@@ -1,13 +1,13 @@
 /* #right_part .resume .resume_heading{
     border: 2px solid green;
 } */
-#right_part .resume .resume_heading h2{
+ .resume_heading h2{
     font-size: 35px;
     line-height: 45px;
     padding: 5px 0px;
     /* border: 1px solid red; */
 }
-#right_part .resume .resume_heading h4{
+ .resume_heading h4{
     font-size: 16px;
     font-weight: 200;
     line-height: 26px;
