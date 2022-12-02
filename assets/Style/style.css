@@ -19,4 +19,5 @@
 @import "./Includes/pages/Blog/Blog.css";
 
 /* this is contact section  */
-@import "./Includes/pages/contact/contact.css"
+@import "./Includes/pages/contact/contact.css";
+@import "./Includes/pages/contact/contact_from.css";

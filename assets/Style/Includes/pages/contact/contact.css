@@ -1,7 +1,7 @@
-#contact_map {}
+/* #contact_and_map {} */
 
-#contact_map .contact_info {
-    border: 1px solid red;
+#contact_and_map .contact_info {
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -9,29 +9,29 @@
     
 }
 
-#contact_map .contact_info .contact_info_des {
+#contact_and_map .contact_info .contact_info_des {
     border-radius: 10px;
     box-shadow: 0px 0px 5px black;
     padding: 20px;
     text-align: center;
 }
-#contact_map .contact_info .contact_info_des i {
+#contact_and_map .contact_info .contact_info_des i {
     font-size: 30px;
     color: rgba(10, 107, 152, 0.559);
 }
-#contact_map .contact_info .contact_info_des h3 {
+#contact_and_map .contact_info .contact_info_des h3 {
     font-size: 16px;
     line-height: 26px;
     font-weight: 450;
     padding: 15px 0;
 }
 
-#contact_map .map {
+#contact_and_map .map {
     border: 1px solid red;
     margin: 30px 0;
 }
 
-#contact_map .map iframe {
+#contact_and_map .map iframe{
     max-width: 600px;
     height: 200px;
 }
