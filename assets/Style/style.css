@@ -17,3 +17,6 @@
 
 /* this is blog section  */
 @import "./Includes/pages/Blog/Blog.css";
+
+/* this is contact section  */
+@import "./Includes/pages/contact/contact.css"
