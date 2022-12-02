@@ -1,14 +1,14 @@
 #contact{
     padding: 10px 100px;
 }
-#contact_from{
+#contact_form{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 20px;
 }
-#contact_from .inputs{
+#contact_form .inputs{
     border: 1px solid blue;
 }
-#contact_from .comments{
+#contact_form .comments{
     border: 1px solid blue;
 }
