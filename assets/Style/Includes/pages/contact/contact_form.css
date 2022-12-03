@@ -33,9 +33,8 @@
     cursor: pointer;
 }
 
-#contact_form .comments {
-    /* border: 1px solid blue; */
-}
+/* #contact_form .comments {
+    border: 1px solid blue;} */
 #contact_form .comments textarea{
     width: 260px;
     height: 120px;
