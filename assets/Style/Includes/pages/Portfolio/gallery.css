@@ -29,7 +29,7 @@
     opacity: 1;
 }
 .portfolio_pic .gallery .overlay  {
-    opasity:1;
+    opacity: 1;
 }
 .portfolio_pic .gallery .overlay a {
     color: var(--white);
