@@ -102,6 +102,15 @@
     .portfolio_pic {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* this is for resume.html  */
+    #right_part .main_container .container .resume .resume_des {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .resume_bottom .certificates {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media (min-width: 576px) and (max-width:767.9px) {}
