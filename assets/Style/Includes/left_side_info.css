@@ -6,23 +6,27 @@
     height: calc(100vh - 35px);
 }
 
+nav header{
+    display: none;
+}
 header {
+    text-align: center;
     height: 100%;
     background-color: rgba(86,184,135,.06);
     /* padding-bottom: 94px; */
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.488);
 }
 
-.left_side_info header .profile_part {
+header .profile_part {
     margin-bottom: 20px;
     padding-top: 72px;
 }
-.left_side_info header .profile_part .profile_img{
+header .profile_part .profile_img{
     display: inline-block;
     position: relative;
 }
 
-.left_side_info header .profile_part ::after {
+header .profile_part ::after {
     content: '';
     height: 110px;
     width: 110px;
@@ -40,22 +44,22 @@ header {
     /* position: relative; */
 }
 
-.left_side_info header .name {
+header .name {
     margin-bottom: 15px;
 }
 
-.left_side_info header .name h2 {
+header .name h2 {
     font-size: 30px;
     line-height: 40px;
     text-transform: capitalize;
 }
 
-.left_side_info header .name p {
+header .name p {
     font-size: 15px;
     line-height: 25px;
 }
 
-.left_side_info header .icon {
+header .icon {
     background-color: rgba(255, 255, 255, 0.228);
     border-radius: 25px;
     display: flex;
@@ -64,28 +68,28 @@ header {
     display: inline-flex;
 }
 
-.left_side_info header .icon li a {
+header .icon li a {
     color: var(--white);
 }
 
-.left_side_info header .icon li a i {
+header .icon li a i {
     font-size: 15px;
 }
 
-.left_side_info header .icon li a:hover {
+header .icon li a:hover {
     color: var(--black);
 }
 
-.left_side_info header .contact_add {
+header .contact_add {
     margin: 20px 0px;
 }
 
-.left_side_info header .contact_add li {
+header .contact_add li {
     font-size: 13px;
     line-height: 23px;
 }
 
-.left_side_info header .cv_button {
+header .cv_button {
     border: 2px solid var(--white);
     border-radius: 10px;
     padding: 5px 25px;
@@ -93,7 +97,7 @@ header {
     margin-top: 20px;
 }
 
-.left_side_info header .cv_button:hover {
+header .cv_button:hover {
     color: var(--black);
     background-color: var(--white);
 }
