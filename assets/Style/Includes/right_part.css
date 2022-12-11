@@ -16,6 +16,7 @@
 
 #right_part .main_container .container {
     display: flex;
+    width: 100%;
 }
 
 nav {

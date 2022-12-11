@@ -9,6 +9,7 @@
 .blog_list .blog_items {
     /* border: 2px solid green; */
     position: relative;
+    padding-right: 11px;
     
 }
 

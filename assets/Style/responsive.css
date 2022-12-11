@@ -1,6 +1,7 @@
-/* this is for contact.html */
+
 
 @media (min-width: 0px) and (max-width:575.9px) {
+    /* this is for contact.html */
     #contact_main {
         margin-top: 40px;
         padding-bottom: 20px;
@@ -29,7 +30,7 @@
         top: 55px;
         background-color: rgba(0, 0, 0, 0.829);
         width: 200px;
-        height: 100vh;
+        height: calc(100vh - 55px);
         text-align: left;
         padding-left: 10px;
         transition-duration: 0.5s;
@@ -62,7 +63,8 @@
     main {
         padding: 6px;
         height: 100vh;
-
+        width: 100vh;
+        margin-top: 35px;
     }
 
     #contact_and_map .contact_info {
@@ -86,6 +88,14 @@
 
     #right_part {
         height: auto;
+    }
+
+    /* this is for blog.html  */
+    .blog_list {
+        grid-template-columns: repeat(1, 100vw);
+    }
+    #right_part .main_container .container {
+        width: 100vw;
     }
 }
 
