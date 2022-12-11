@@ -30,8 +30,12 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgba(6, 150, 216, 0.381);
-
+    color: rgba(6, 150, 216, 0.447);
+}
+nav ul li a span{
+    /* color: white; */
+    padding-left: 10px;
+    display: none;
 }
 
 nav ul li i {
