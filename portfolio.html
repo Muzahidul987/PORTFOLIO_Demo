@@ -8,9 +8,19 @@
     <title>Portfolior</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="./assets/Style/style.css">
+    <link rel="stylesheet" href="assets/Style/responsive.css">
 </head>
 
 <body>
+
+    <div id="top_part">
+        <div class="logo_part">
+            Alex Smith
+        </div>
+        <button onclick="nav_id.classList.toggle('active')" class="icon_part">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
 
     <div id="main_body">
         <div class="left_side_info">
@@ -149,13 +159,38 @@
                     </section>
                 </main>
 
-                <nav>
+                <nav id="nav_id" class="">
+
+                    <header>
+                        <div class="profile_part">
+                            <div class="profile_img">
+                                <img src="assets/images/main_photo.jpg" alt="profile_img">
+                            </div>
+        
+                        </div>
+                        <div class="name">
+                            <h2>alex smith</h2>
+                            <p>web design</p>
+                        </div>
+                        <ul class="icon">
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        </ul>
+                        <ul class="contact_add">
+                            <li>0123456789</li>
+                            <li>demo@demo.com</li>
+                        </ul>
+                        <a href="#" class="cv_button" download="">Download CV</a>
+        
+                    </header>
+
                     <ul>
-                        <li><a href="index.html"><i class="fa-regular fa-user"></i></a></li>
-                        <li><a href="resume.html"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                        <li><a href="portfolio.html"><i class="fa-solid fa-briefcase"></i></a></li>
-                        <li><a href="blog.html"><i class="fa-solid fa-book"></i></a></li>
-                        <li><a href="contact.html"><i class="fa-regular fa-envelope"></i></a></li>
+                        <li><a href="index.html"><i class="fa-regular fa-user"></i><span>Profile</span></a></li>
+                        <li><a href="resume.html"><i class="fa-solid fa-graduation-cap"></i><span>Resume</span></a></li>
+                        <li><a href="portfolio.html"><i class="fa-solid fa-briefcase"></i><span>Portfolio</span></a></li>
+                        <li><a href="blog.html"><i class="fa-solid fa-book"></i><span>Blog</span></a></li>
+                        <li><a href="contact.html"><i class="fa-regular fa-envelope"></i><span>Contact</span></a></li>
                     </ul>
                 </nav>
 

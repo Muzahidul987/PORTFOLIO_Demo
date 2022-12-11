@@ -3,6 +3,7 @@
     display: flex;
     gap: 20px;
     padding: 10px 0;
+    flex-wrap: wrap;
 }
 /* .portfolio_heading ul li{} */
 .portfolio_heading ul li a{

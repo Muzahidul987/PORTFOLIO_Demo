@@ -1,6 +1,5 @@
-
-
 @media (min-width: 0px) and (max-width:575.9px) {
+
     /* this is for contact.html */
     #contact_main {
         margin-top: 40px;
@@ -94,8 +93,14 @@
     .blog_list {
         grid-template-columns: repeat(1, 100vw);
     }
+
     #right_part .main_container .container {
         width: 100vw;
+    }
+
+    /* this is for portfolio.html  */
+    .portfolio_pic {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
