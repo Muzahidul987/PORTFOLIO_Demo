@@ -111,6 +111,33 @@
     .resume_bottom .certificates {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* this is for index.html  */
+    .Main_contant_1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Main_contant .Main_contant_1 .details p {
+        width: 95vw;
+        text-align: justify;
+    }
+
+    .right_pic .img img {
+        width: 312px;
+        position: unset;
+    }
+
+    #counter_part .counter_list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #what_i_do .what_i_do_items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #testimonials .testimonials_items {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media (min-width: 576px) and (max-width:767.9px) {}
