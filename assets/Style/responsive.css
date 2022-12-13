@@ -10,60 +10,12 @@
         padding: 0px;
     }
 
-    #top_part {
-        display: flex;
-    }
-
-    nav.active {
-        right: 0;
-    }
-
-    nav header {
-        display: block;
-        color: white;
-    }
-
-    nav {
-        position: fixed;
-        right: -100vw;
-        top: 55px;
-        background-color: rgba(0, 0, 0, 0.829);
-        width: 200px;
-        height: calc(100vh - 55px);
-        text-align: left;
-        padding-left: 10px;
-        transition-duration: 0.5s;
-        overflow-y: scroll;
-    }
-
-    nav>ul li a i {
-        color: white;
-        font-size: 20px;
-        width: 30px;
-    }
-
-    nav>ul li a span {
-        display: inline-block;
-        color: white;
-    }
-
-    #main_body .left_side_info {
-        display: none;
-    }
-
     #contact {
         padding: 0px;
     }
 
     #contact_form {
         grid-template-columns: repeat(1, 1fr);
-    }
-
-    main {
-        padding: 6px;
-        height: 100vh;
-        width: 100vh;
-        margin-top: 35px;
     }
 
     #contact_and_map .contact_info {
@@ -140,7 +92,112 @@
     }
 }
 
-@media (min-width: 576px) and (max-width:767.9px) {}
+/* this is for nav bar  */
+@media (min-width:0px) and (max-width:767.9px) {
+    main {
+        padding: 6px;
+        height: 100vh;
+        width: 100vh;
+        margin-top: 35px;
+        overflow-y: unset;
+        overflow-x: hidden;
+    }
+
+    #main_body .left_side_info {
+        display: none;
+    }
+
+    #top_part {
+        display: flex;
+    }
+
+    nav.active {
+        right: 0;
+    }
+
+    nav header {
+        display: block;
+        color: white;
+    }
+
+    nav {
+        position: fixed;
+        right: -100vw;
+        top: 55px;
+        background-color: rgba(0, 0, 0, 0.829);
+        width: 200px;
+        height: calc(100vh - 55px);
+        text-align: left;
+        padding-left: 10px;
+        transition-duration: 0.5s;
+        overflow-y: scroll;
+    }
+
+    nav>ul li a i {
+        color: white;
+        font-size: 20px;
+        width: 30px;
+    }
+
+    nav>ul li a span {
+        display: inline-block;
+        color: white;
+    }
+}
+
+@media (min-width: 576px) and (max-width:767.9px) {
+
+    /* this is for contact.html  */
+    #right_part .main_container {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    #right_part .main_container .container {
+        width: 100vw;
+    }
+
+    #right_part {
+        padding: 20px 50px 50px 0px;
+        width: 100vw;
+    }
+
+    #contact_and_map .contact_info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #contact_and_map .contact_info .contact_info_des {
+        padding: 10px;
+    }
+
+    #contact {
+        padding: 10px 0px;
+    }
+
+    #contact_form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #contact_form .inputs .input_group {
+        width: 100vw;
+    }
+
+    /* this is for resume.html  */
+    #right_part .main_container .container .resume .resume_des {
+        grid-template-columns: 1fr;
+    }
+
+    /* this is profile.html  */
+    .Main_contant_1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .right_pic .img img {
+        width: 406px;
+        top: 0px;
+        left: 164px;
+    }
+}
 
 @media (min-width: 768px) and (max-width:991.9px) {}
 
